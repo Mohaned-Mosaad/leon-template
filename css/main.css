@@ -218,8 +218,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
 
-    min-height: 93vh;
-
+    min-height: 50vh;
     display: flex;
     justify-content: center;
 }
@@ -238,6 +237,13 @@ h3 {
 }
 .landing p{
     line-height: 1.8;
+    color: white;
+
+}
+@media screen and (min-width:768px) {
+    .landing p{
+        color: black;
+    }    
 }
 /* end landing */
 
